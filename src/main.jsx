@@ -7,7 +7,7 @@ import EasterMama from "./pages/easter/EasterMama.jsx";
 import EasterPapa from "./pages/easter/EasterPapa.jsx";
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
+
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />} />
@@ -19,5 +19,5 @@ createRoot(document.getElementById('root')).render(
 
       </Routes>
     </BrowserRouter>
-  </StrictMode>
+
 )
